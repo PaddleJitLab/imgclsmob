@@ -11,7 +11,7 @@ __all__ = ['ResNet', 'resnet10', 'resnet12', 'resnet14', 'resnetbc14b', 'resnet1
 import os
 import tensorflow as tf
 import tensorflow.keras.layers as nn
-from .common import conv1x1_block, conv3x3_block, conv7x7_block, MaxPool2d, SimpleSequential, flatten, is_channels_first
+from common import conv1x1_block, conv3x3_block, conv7x7_block, MaxPool2d, SimpleSequential, flatten, is_channels_first
 
 
 class ResBlock(nn.Layer):

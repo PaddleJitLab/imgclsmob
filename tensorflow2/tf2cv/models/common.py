@@ -2918,7 +2918,7 @@ class SimpleSequential(nn.Layer):
         return len(self.children)
 
     def add(self, layer):
-        layer._name = "{}/{}".format(self.name, layer._name)
+        layer.name = "{}/{}".format(self.name, layer.name)
         self.children.append(layer)
 
     def call(self, x, training=None):
