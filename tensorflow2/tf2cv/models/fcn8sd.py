@@ -10,8 +10,8 @@ __all__ = ['FCN8sd', 'fcn8sd_resnetd50b_voc', 'fcn8sd_resnetd101b_voc', 'fcn8sd_
 import os
 import tensorflow as tf
 import tensorflow.keras.layers as nn
-from .common import conv1x1, conv3x3_block, is_channels_first, interpolate_im, get_im_size
-from .resnetd import resnetd50b, resnetd101b
+from common import conv1x1, conv3x3_block, is_channels_first, interpolate_im, get_im_size
+from resnetd import resnetd50b, resnetd101b
 
 
 class FCNFinalBlock(nn.Layer):

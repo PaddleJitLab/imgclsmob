@@ -9,7 +9,7 @@ import os
 import math
 import tensorflow as tf
 import tensorflow.keras.layers as nn
-from .common import conv1x1_block, conv3x3_block, SEBlock, MaxPool2d, SimpleSequential, flatten
+from common import conv1x1_block, conv3x3_block, SEBlock, MaxPool2d, SimpleSequential, flatten
 
 
 class SENetBottleneck(nn.Layer):

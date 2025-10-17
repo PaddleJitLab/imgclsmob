@@ -8,9 +8,9 @@ __all__ = ['ResNetD', 'resnetd50b', 'resnetd101b', 'resnetd152b']
 import os
 import tensorflow as tf
 import tensorflow.keras.layers as nn
-from .common import MultiOutputSequential, SimpleSequential, is_channels_first
-from .resnet import ResUnit, ResInitBlock
-from .senet import SEInitBlock
+from common import MultiOutputSequential, SimpleSequential, is_channels_first
+from resnet import ResUnit, ResInitBlock
+from senet import SEInitBlock
 
 
 class ResNetD(tf.keras.Model):
