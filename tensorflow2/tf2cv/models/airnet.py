@@ -9,7 +9,7 @@ __all__ = ['AirNet', 'airnet50_1x64d_r2', 'airnet50_1x64d_r16', 'airnet101_1x64d
 import os
 import tensorflow as tf
 import tensorflow.keras.layers as nn
-from .common import conv1x1_block, conv3x3_block, MaxPool2d, SimpleSequential, flatten, is_channels_first
+from common import conv1x1_block, conv3x3_block, MaxPool2d, SimpleSequential, flatten, is_channels_first
 
 
 class AirBlock(nn.Layer):

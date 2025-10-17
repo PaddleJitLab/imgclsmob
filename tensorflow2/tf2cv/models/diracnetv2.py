@@ -9,7 +9,7 @@ __all__ = ['DiracNetV2', 'diracnet18v2', 'diracnet34v2']
 import os
 import tensorflow as tf
 import tensorflow.keras.layers as nn
-from .common import Conv2d, MaxPool2d, SimpleSequential, flatten, is_channels_first
+from common import Conv2d, MaxPool2d, SimpleSequential, flatten, is_channels_first
 
 
 class DiracConv(nn.Layer):

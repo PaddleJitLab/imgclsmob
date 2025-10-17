@@ -8,7 +8,7 @@ __all__ = ['WRN', 'wrn50_2']
 import os
 import tensorflow as tf
 import tensorflow.keras.layers as nn
-from .common import Conv2d, MaxPool2d, SimpleSequential, flatten, is_channels_first
+from common import Conv2d, MaxPool2d, SimpleSequential, flatten, is_channels_first
 
 
 class WRNConv(nn.Layer):

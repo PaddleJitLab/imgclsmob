@@ -16,7 +16,7 @@ import os
 import math
 import tensorflow as tf
 import tensorflow.keras.layers as nn
-from .common import (round_channels, conv1x1_block, conv3x3_block, dwconv3x3_block, dwconv5x5_block, SEBlock,
+from common import (round_channels, conv1x1_block, conv3x3_block, dwconv3x3_block, dwconv5x5_block, SEBlock,
                      SimpleSequential, is_channels_first)
 
 

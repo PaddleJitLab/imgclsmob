@@ -8,7 +8,7 @@ __all__ = ['DarkNet53', 'darknet53']
 import os
 import tensorflow as tf
 import tensorflow.keras.layers as nn
-from .common import conv1x1_block, conv3x3_block, SimpleSequential, flatten
+from common import conv1x1_block, conv3x3_block, SimpleSequential, flatten
 
 
 class DarkUnit(nn.Layer):
